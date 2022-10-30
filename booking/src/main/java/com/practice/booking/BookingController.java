@@ -41,5 +41,7 @@ public class BookingController {
 		return new BookingDetailsBean(response.getPlace_from(),response.getPlace_to(),response.getMode(),response.getPrice(),response.getPrice()-(0.2*response.getPrice()));
 		
 	}
+	
+	
 
 }
